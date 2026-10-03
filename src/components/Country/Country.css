@@ -1,0 +1,29 @@
+.country {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* মাঝখানে রাখার জন্য */
+  width: fit-content;  /* বর্ডার শুধু কনটেন্ট অনুযায়ী থাকবে */
+
+  border: 3px solid #d6d3d3;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.button {
+  font-family: inherit;
+  font-size: medium;
+  font-weight: 500;
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  margin-top: auto; /* একদম নিচে সেন্টারে থাকবে */
+}
+
+.country-visited {
+  background-color: rgb(78, 205, 236);
+  color: white;
+}
